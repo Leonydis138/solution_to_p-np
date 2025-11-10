@@ -4,6 +4,13 @@
 
 An interactive web application for validating and visualizing circuit lower bounds in computational complexity theory. The platform focuses on composition theorems and adversarial restrictions, providing statistical validation of theoretical results through Monte Carlo simulations and hypothesis testing. Built with Streamlit for rapid prototyping and interactive exploration of circuit complexity bounds.
 
+## Research Attribution
+
+**Independent Research by Juan-louw Greyling**
+- Email: Juanlouw.greyling@gmail.com
+- Donations welcome via PayPal
+- Attribution displayed prominently in the application header
+
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.

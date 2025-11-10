@@ -27,6 +27,12 @@ st.set_page_config(
 st.title("Circuit Lower Bounds via Composition and Adversarial Restrictions")
 st.markdown("### Interactive Validation and Visualization Platform")
 
+st.info("""
+**Independent Research by Juan-louw Greyling**  
+📧 Email: Juanlouw.greyling@gmail.com  
+💝 Donations welcome via PayPal
+""")
+
 def run_test(n, t, independent):
     if independent:
         cross_inf = np.random.exponential(scale=0.1)
