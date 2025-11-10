@@ -1,0 +1,11 @@
+{
+  "metadata": {
+    "description": "Demo validation results",
+    "timestamp": "2025-11-10T14:32:44.812846"
+  },
+  "summary": {
+    "total_configurations": 2,
+    "independent_passed": "1/1",
+    "dependent_passed": "0/1"
+  }
+}

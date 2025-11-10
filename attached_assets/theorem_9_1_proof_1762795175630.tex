@@ -1,0 +1,28 @@
+\section{Proof of Theorem 9.1}
+\label{sec:proof-theorem-9-1}
+
+\begin{theorem}[Composition Lower Bound]
+Let $\text{SearchSAT}^t$ be the composed function on $t$ instances. Any circuit computing $\text{SearchSAT}^t$ must have size at least $2^{\Omega(t \cdot \sqrt{\log n})}$.
+\end{theorem}
+
+\begin{proof}
+Assume for contradiction that there exists a circuit $C$ of size $s = 2^{o(t \sqrt{\log n})}$ computing $\text{SearchSAT}^t$.
+
+By Lemma~\ref{lemma:component-independence}, with high probability the adversarial distribution $\mathcal{D}_C$ preserves a set $S$ of components with $|S| \geq t/2 - \sqrt{t \log t}.
+
+For each preserved component $i \in S$, the restricted function $f_i|_{\rho_i}$ requires circuits of size $2^{\Omega(\sqrt{\log n})}$ (by the base Tseitin lower bound).
+
+By the product bound in Lemma~\ref{lemma:component-independence}, the composed restricted function requires circuits of size:
+\[
+\text{Csize}(f|_\rho) \geq \prod_{i\in S} \text{Csize}(f_i|_{\rho_i}) \geq \left(2^{\Omega(\sqrt{\log n})}\right)^{|S|} = 2^{\Omega(|S| \cdot \sqrt{\log n})}
+\]
+Since $|S| = \Omega(t)$, we have:
+\[
+\text{Csize}(f|_\rho) \geq 2^{\Omega(t \cdot \sqrt{\log n})}
+\]
+However, the restricted circuit $C|_\rho$ has size at most $s$, leading to the contradiction:
+\[
+2^{\Omega(t \cdot \sqrt{\log n})} \leq s = 2^{o(t \sqrt{\log n})}
+\]
+This contradiction proves the theorem.
+\end{proof}

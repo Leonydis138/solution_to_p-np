@@ -1,0 +1,4 @@
+{
+  "error": "Object of type bool_ is not JSON serializable",
+  "note": "See validation_results/log.txt for traceback."
+}
