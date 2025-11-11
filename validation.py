@@ -3,6 +3,7 @@ Bayesian Analysis Module
 Advanced statistical analysis for circuit lower bounds validation
 """
 
+import statsmodels
 import numpy as np
 from scipy import stats
 from typing import Dict, List, Tuple
