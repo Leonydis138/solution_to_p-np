@@ -986,48 +986,48 @@ st.sidebar.markdown("**Parameter Ranges**")
 st.sidebar.markdown("- Graph size: n ∈ [20, 500]")
 st.sidebar.markdown("- Components: t ∈ [3, 50]")    
 .main-header {
-        font-size: 3rem;
-        font-weight: bold;
-        color: #667eea;
-        text-align: center;
-        margin-bottom: 1rem;
-    }
-    .sub-header {
-        font-size: 1.5rem;
-        color: #764ba2;
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-    }
-    .metric-card {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        padding: 1.5rem;
-        border-radius: 10px;
-        color: white;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-    .success-box {
-        background-color: #d4edda;
-        border-left: 5px solid #28a745;
-        padding: 1rem;
-        border-radius: 5px;
-        margin: 1rem 0;
-    }
-    .warning-box {
-        background-color: #fff3cd;
-        border-left: 5px solid #ffc107;
-        padding: 1rem;
-        border-radius: 5px;
-        margin: 1rem 0;
-    }
-    .stTabs [data-baseweb="tab-list"] {
-        gap: 2rem;
-    }
-    .stTabs [data-baseweb="tab"] {
-        font-size: 1.2rem;
-        font-weight: 600;
-    }
+    font-size: 3rem;
+    font-weight: bold;
+    color: #667eea;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.sub-header {
+    font-size: 1.5rem;
+    color: #764ba2;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.metric-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 1.5rem;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.success-box {
+    background-color: #d4edda;
+    border-left: 5px solid #28a745;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+.warning-box {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2rem;
+}
+.stTabs [data-baseweb="tab"] {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
 </style>
-""", unsafe_allow_html=True)
+, unsafe_allow_html=True)
 
 # Session state initialization
 if 'validation_results' not in st.session_state:
