@@ -38,3 +38,6 @@ xlsxwriter>=3.1.0
 
 # Type checking
 mypy>=1.5.0
+
+# Extra
+validation
