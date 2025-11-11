@@ -984,7 +984,8 @@ validation of novel circuit lower bounds using:
 st.sidebar.markdown("---")
 st.sidebar.markdown("**Parameter Ranges**")
 st.sidebar.markdown("- Graph size: n ∈ [20, 500]")
-st.sidebar.markdown("- Components: t ∈ [3, 50]")    .main-header {
+st.sidebar.markdown("- Components: t ∈ [3, 50]")    
+    .main-header {
         font-size: 3rem;
         font-weight: bold;
         color: #667eea;
